@@ -1,0 +1,5 @@
+{
+  "name": "SPED File Generator from XML",
+  "description": "An application to generate SPED EFD ICMS/IPI and Contribuições files by processing NF-e/CT-e XML files, including fiscal adjustments for CFOP and CST.",
+  "requestFramePermissions": []
+}
