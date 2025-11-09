@@ -7,6 +7,7 @@ import ConfigForm from './components/ConfigForm';
 import FileUpload from './components/FileUpload';
 import ResultsDisplay from './components/ResultsDisplay';
 import Spinner from './components/Spinner';
+import HowToUse from './components/HowToUse';
 
 const App: React.FC = () => {
   const [config, setConfig] = useState<SpedConfig>({
@@ -54,6 +55,7 @@ const App: React.FC = () => {
       <main className="container mx-auto p-4 md:p-8">
         <div className="max-w-4xl mx-auto bg-surface shadow-lg rounded-lg overflow-hidden">
           <div className="p-6 md:p-8">
+            <HowToUse />
             <h2 className="text-2xl font-bold text-primary-dark mb-6">1. Configurações da Escrituração</h2>
             <ConfigForm config={config} setConfig={setConfig} />
 
